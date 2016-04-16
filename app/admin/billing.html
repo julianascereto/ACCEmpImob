@@ -1,0 +1,163 @@
+<!doctype html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="ACC Empreendimentos Imobiliários, real estate market and services In Brazil.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ACC Empreendimentos Imobiliários</title>
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- build:css styles/vendor.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.css" />
+
+    <link rel="stylesheet" href="/bower_components/font-awesome/css/font-awesome.css" />
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="/styles/main.css">
+    <!-- endbuild -->
+
+    <!-- build:js scripts/vendor/modernizr.js -->
+    <script src="/bower_components/modernizr/modernizr.js"></script>
+    <!-- endbuild -->
+  </head>
+  <body>
+    <!--[if lt IE 10]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <div class="container">
+      <div class="header">
+        <ul class="nav nav-pills pull-right">
+          <li><a href="/">Home</a></li>
+          <li><a href="/properties.html">Properties</a></li>
+          <li><a href="/services.html">Services</a></li>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+          <li class="active"><a href="/login.html">Login</a></li>
+        </ul>
+        <h3 class="text-muted"><img id="logo" src="/images/logo_full.png"></h3>
+
+
+      </div>
+
+      <div class="row">
+        <div class="col-md-4">
+            <h4>Welcome back <b>Juliana</b></h4>
+            <ul class="nav nav-pills nav-stacked">
+              <li><a href="/admin/request-service.html">Request Services</a></li>
+              <li class="active"><a href="/admin/billing.html">Billing</a></li>
+            </ul>
+        </div>
+
+        <div class="col-md-8">
+          <div class="alert alert-danger" role="alert">
+            <b>Oops</b>, it seems you have Overdue payments.
+            Please print invoice and pay as soon as possible</div>
+          <div class="panel panel-default">
+            <div class="panel-heading">Payments</div>
+           <!-- Table -->
+           <table class="table">
+             <tr>
+               <th>Unit</th>
+               <th>Due Date</th>
+               <th>Status</th>
+               <th>invoice</th>
+             </tr>
+             <tr>
+               <td>Rua Nsa. Senhora de Copacabana 195, ap 1303</td>
+               <td>5/1/2016</td>
+               <td><span class="label label-default">Pending</span></td>
+               <td><a href="/invoice.pdf" download="invoice.pdf">Download</a></td>
+             </tr>
+             <tr>
+               <td>Rua do Ouvidor 31, unit 12A</td>
+               <td>5/1/2016</td>
+               <td><span class="label label-default">Pending</span></td>
+               <td><a href="/invoice.pdf" download="invoice.pdf">Download</a></td>
+             </tr>
+             <tr>
+               <td>Rua Nsa. Senhora de Copacabana 195, ap 1303</td>
+               <td>4/1/2016</td>
+               <td><span class="label label-success">Paid</span></td>
+               <td><a href="/invoice.pdf" download="invoice.pdf">Download</a></td>
+             </tr>
+             <tr>
+               <td>Rua do Ouvidor 31, unit 12A</td>
+               <td>4/1/2016</td>
+               <td><span class="label label-success">Paid</span></td>
+               <td><a href="/invoice.pdf" download="invoice.pdf">Download</a></td>
+             </tr>
+             <tr>
+               <td>Rua Nsa. Senhora de Copacabana 195, ap 1303</td>
+               <td>3/1/2016</td>
+               <td><span class="label label-danger">Overdue</span></td>
+               <td><a href="/invoice.pdf" download="invoice.pdf">Download</a></td>
+             </tr>
+             <tr>
+               <td>Rua do Ouvidor 31, unit 12A</td>
+               <td>3/1/2016</td>
+               <td><span class="label label-success">Paid</span></td>
+               <td><a href="/invoice.pdf" download="invoice.pdf">Download</a></td>
+             </tr>
+             <tr>
+               <td>Rua Nsa. Senhora de Copacabana 195, ap 1303</td>
+               <td>2/1/2016</td>
+               <td><span class="label label-success">Paid</span></td>
+               <td><a href="/invoice.pdf" download="invoice.pdf">Download</a></td>
+             </tr>
+             <tr>
+               <td>Rua do Ouvidor 31, unit 12A</td>
+               <td>2/1/2016</td>
+               <td><span class="label label-success">Paid</span></td>
+               <td><a href="/invoice.pdf" download="invoice.pdf">Download</a></td>
+             </tr>
+           </table>
+         </div>
+      </div>
+
+      <div class="footer">
+        <p>♥ from the ACC team</p>
+      </div>
+    </div>
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='https://www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>
+
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:js scripts/plugins.js -->
+    <script src="/bower_components/bootstrap/js/affix.js"></script>
+    <script src="/bower_components/bootstrap/js/alert.js"></script>
+    <script src="/bower_components/bootstrap/js/dropdown.js"></script>
+    <script src="/bower_components/bootstrap/js/tooltip.js"></script>
+    <script src="/bower_components/bootstrap/js/modal.js"></script>
+    <script src="/bower_components/bootstrap/js/transition.js"></script>
+    <script src="/bower_components/bootstrap/js/button.js"></script>
+    <script src="/bower_components/bootstrap/js/popover.js"></script>
+    <script src="/bower_components/bootstrap/js/carousel.js"></script>
+    <script src="/bower_components/bootstrap/js/scrollspy.js"></script>
+    <script src="/bower_components/bootstrap/js/collapse.js"></script>
+    <script src="/bower_components/bootstrap/js/tab.js"></script>
+    <!-- endbuild -->
+
+    <!-- build:js scripts/main.js -->
+    <script src="/scripts/main.js"></script>
+    <!-- endbuild -->
+  </body>
+</html>
